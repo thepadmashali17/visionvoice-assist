@@ -1,10 +1,10 @@
-# 🎯 VisionVoice Assist
+# VisionVoice Assist
 
 ### Real-Time Object Detection with Voice Feedback using YOLOv5
 
 ------------------------------------------------------------------------
 
-## 📌 Overview
+## Overview
 
 **VisionVoice Assist** is an AI-powered real-time object detection and
 voice feedback system designed to assist visually impaired individuals
@@ -18,7 +18,7 @@ threshold.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+## Features
 
 -   Real-time object detection using YOLOv5\
 -   Voice feedback for detected objects\
@@ -30,7 +30,7 @@ threshold.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 -   Python\
 -   PyTorch\
@@ -44,7 +44,7 @@ threshold.
 
 ------------------------------------------------------------------------
 
-## 🧠 System Architecture
+## System Architecture
 
 1.  Webcam captures live video frames.\
 2.  YOLOv5 processes each frame.\
@@ -58,7 +58,7 @@ threshold.
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
+## Project Structure
 
 VisionVoice-Assist/ │ ├── vision_voice.ipynb ├── README.md
 
@@ -75,7 +75,7 @@ pip install scikit-learn
 
 ------------------------------------------------------------------------
 
-## ▶️ How to Run
+## How to Run
 
 ### Run via Jupyter Notebook
 
@@ -89,7 +89,7 @@ python vision_voice.py
 
 ------------------------------------------------------------------------
 
-## 🎛️ Adjustable Confidence Threshold
+## Adjustable Confidence Threshold
 
 The GUI includes a slider that allows users to dynamically adjust
 detection sensitivity:
@@ -101,7 +101,7 @@ detection sensitivity:
 
 ------------------------------------------------------------------------
 
-## 🔊 Voice Output Logic
+## Voice Output Logic
 
 -   Announces objects only when a change is detected.\
 -   Counts multiple occurrences (e.g., "2 persons and 1 laptop").\
@@ -109,7 +109,7 @@ detection sensitivity:
 
 ------------------------------------------------------------------------
 
-## 📊 Model Used
+## Model Used
 
 YOLOv5s (Small variant)\
 Loaded via PyTorch Hub: torch.hub.load('ultralytics/yolov5', 'yolov5s',
@@ -119,7 +119,7 @@ Pre-trained on COCO dataset (80 object classes)
 
 ------------------------------------------------------------------------
 
-## 🌍 Applications
+## Applications
 
 -   Assistive technology for visually impaired users\
 -   Smart home systems\
@@ -129,7 +129,7 @@ Pre-trained on COCO dataset (80 object classes)
 
 ------------------------------------------------------------------------
 
-## 🔐 Limitations
+## Limitations
 
 -   Requires internet connection for gTTS\
 -   Performance depends on lighting conditions\
@@ -138,7 +138,7 @@ Pre-trained on COCO dataset (80 object classes)
 
 ------------------------------------------------------------------------
 
-## 🚀 Future Improvements
+## Future Improvements
 
 -   Offline speech engine integration\
 -   Custom object training\
